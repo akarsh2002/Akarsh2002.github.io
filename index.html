@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.1/css/boxicons.min.css">
+    <title>Akarsh Anand Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+<style>
+
+/*======================================
+//--//-->   ABOUT
+======================================*/
+
+.about-mf .box-shadow-full {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.about-mf .about-img {
+  margin-bottom: 2rem;
+}
+
+.about-mf .about-img img {
+  margin-left: 10px;
+}
+
+
+.skill-mf .progress {
+  /* background-color: #cde1f8; */
+  margin: .5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: .7rem;
+}
+
+.skill-mf .progress .progress-bar {
+  height: .7rem;
+  background-color: #ffbd39;
+}
+
+
+/* Animation styles */
+#typing-animation {
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 0.1s steps(20, end) infinite;
+}
+
+#typing-animation:before {
+  content: "";
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #ccc;
+  animation: typing-cursor 0.01s ease-in-out infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typing-cursor {
+  from {
+    width: 5px;
+  }
+  to {
+    width: 0;
+  }
+}
+
+
+/* project image zoom effect */
+
+.zoom-effect {
+  overflow: hidden;
+  transition: transform 0.3s ease-out;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.1);
+}
+
+/* Rocket Icon effect */
+
+/* General icon styling */
+.bx {
+  font-size: 14px; /* Adjust size as needed */
+}
+
+/* Specific link and icon styling */
+.link-rocket-red i.bxs-rocket {
+  color: #00d5ff; /* Blue color for the first link */
+}
+
+.link-rocket-blue i.bxs-rocket {
+  color: #7300ff; /* Blue color for the first link */
+}
+.link-rocket-yellow i.bxs-rocket {
+  color: #fffb00; /* Blue color for the first link */
+}
+.link-rocket-green i.bxs-rocket {
+  color: #59ff00; /* Blue color for the first link */
+}
+.link-rocket-orange i.bxs-rocket {
+  color: #ff6a00; /* Blue color for the first link */
+}
+
+
+/* Link styling */
+a {
+  text-decoration: none; /* Remove underline */
+  color: #00ffd5; /* Link color */
+}
+
+
+.block-20 {
+        width: 200px; /* Adjust the width as needed */
+        height: 100px; /* Adjust the height as needed */
+        background-size: contain; /* Adjust size while maintaining aspect ratio */
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      .zoom-effect {
+        transition: transform 0.3s;
+      }
+
+      .zoom-effect:hover {
+        transform: scale(1.1);
+      }
+
+/* General icon styling */
+.icon-linkedin, .icon-github {
+  font-size: 60px; /* Adjust size as needed */
+}
+
+/* LinkedIn icon color */
+.linkedin-icon .icon-linkedin {
+  color: #0077b5; /* LinkedIn blue */
+}
+
+/* GitHub icon color */
+.github-icon .icon-github {
+  color: #dedbdb; /* GitHub black/gray */
+}
+
+/* Optional hover effects */
+.linkedin-icon:hover .icon-linkedin {
+  color: #005582; /* Darker blue on hover */
+}
+
+.github-icon:hover .icon-github {
+  color: #484749; /* Purple tint on hover */
+}
+
+/* Centering text and icons */
+.normal-txt, .ftco-footer-social li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+</style>
+
+
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	  
+	  
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">Akarsh Anand </a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+	          <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+	  <section id="home-section" class="hero">
+		  <div class="home-slider  owl-carousel">
+	       <div class="slider-item ">
+	      	<div class="overlay"></div>
+	         <div class="container">
+	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/98558.jpg);">
+	          	 <div class="overlay"></div>
+	          	</div>
+		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+		          	<div class="text">
+		          		<span class="subheading">Hello!</span>
+			            <h1 class="mb-4 mt-3">I'm <span>Akarsh Anand</span></h1>
+
+						<!-- Element to contain animated typing -->
+						<span id="typing-animation"></span>
+
+						<script>
+
+						// Initialize the typing animation
+						const typingAnimationElement = document.getElementById('typing-animation');
+
+						// Create an array of typing text
+						const typingTexts = [
+						'Data Science  ',
+					     'Business analytics',
+						'Data Analytics',
+						];
+
+						// Create a function to display the typing animation for a given text
+						function playTypingAnimation(text) {
+						// Loop through each character and add it to the element
+						for (let i = 0; i < text.length; i++) {
+							setTimeout(() => {
+							typingAnimationElement.textContent += text[i];
+							}, i * 200); // Increase the delay to slow down the typing animation
+						}
+
+						// Once the animation is complete, reset the text and start over
+						setTimeout(() => {
+							typingAnimationElement.textContent = '';
+							playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+						}, text.length * 200);
+						}
+
+						// Start the typing animation loop
+						playTypingAnimation(typingTexts[0]);
+
+						</script>
+
+						<br>
+						<br>
+						<!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
+						<!-- <br> -->
+							<a href="https://github.com/akarsh2002" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
+		            </div>
+		          </div>
+	        	</div>
+	        </div>
+	      </div>
+		</div>
+    </section>
+
+
+
+    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+    	<div class="container">
+			<div class="row">
+				<div class="row d-flex align-items-stretch">
+				<!-- <div class="row d-flex"> -->
+					<div class="col-md-6 col-lg-5 d-flex">
+						<div class="img-about img d-flex align-items-stretch">
+							<div class="overlay">
+								<div class="row">
+									<div class="col-sm-6 col-md-5">
+									  <div class="about-img">
+										<img src="images/98558.jpg" class="img-fluid rounded b-shadow-a" alt="">
+									  </div>
+									</div>
+									<!-- Details next to profile image -->
+									<div class="col-sm-6 col-md-7">
+									  <div class="about-info">
+										<p><span class="title-s">Name: </span> <span>Akarsh Anand</span></p>
+										<p><span class="title-s">Job Role: </span> <span>Data Science & Analytics</span></p>
+										<p><span class="title-s">Address: </span> <span>Greater Noida, India</span></p>
+									  </div>
+									</div>
+								  </div>
+
+								<div class="skill-mf">
+									<p class="title-s">Skills</p>
+									<span>SQL</span> <span class="pull-right">80%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="95" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>PYTHON</span> <span class="pull-right">85%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>Data Visualization</span> <span class="pull-right">80%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									
+									<span>Machine Learning</span> <span class="pull-right">50%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+						<div class="row justify-content-start pb-3">
+							<div class="col-md-12 heading-section ftco-animate">
+								
+								<h1 class="big">About</h1>
+								<h2 class="mb-4">About Me</h2>
+								
+								<p>Motivated and detail-oriented Data analytics and business analytics Engineer with a Bachelor's degree in Computer Science Engineering.
+									 Proficient in data analysis, EDA, hypothesis testing, data visualization, and machine learning.
+									  Demonstrated success in leading impactful projects and showcasing strong leadership skills..</p>
+								<ul class="about-info mt-4 px-md-0 px-2">
+									<li class="d-flex"><span>Profile:</span> <span>Data Science &amp; Analytics</span></li>
+									<li class="d-flex"><span>Education:</span> <span>Bachelor of Engineering</span></li>
+									<li class="d-flex"><span>Language:</span> <span>English, Hindi</span></li>
+									<li class="d-flex"><span>BI Tools:</span> <span>Tableau </span></li>
+									<li class="d-flex"><span>Other Skills:</span> <span>Cloud, PySpark, Excel,  JIRA &amp; Google Analytics</span></li>
+									<li class="d-flex"><span>Interest:</span> <span>Traveling, Videography</span></li>
+									
+								</ul>
+							</div>
+						</div>
+
+
+						<div class="counter-wrap ftco-animate d-flex mt-md-3">
+							<div class="text">
+								<p class="mb-4">
+									<span class="number" data-number="5">0</span> <span></span>
+									<span>&nbsp; Projects completed</span>
+								</p>
+								<p><a href="https://www.linkedin.com/in/akarsh12/" class="btn btn-primary py-3 px-3">LinkedIn</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </section>
+
+
+
+	
+    <section class="ftco-section ftco-no-pb" id="resume-section">
+    	<div class="container">
+    		<div class="row justify-content-center pb-5">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+          	<h1 class="big big-2">Resume</h1>
+            <h2 class="mb-4">Resume</h2>
+           <p>Motivated and detail-oriented Data analytics and business analytics Engineer with strong analytical skills and communication skills. Proficient in Spark, Scala, SQL, Python, and Tableau. Skilled in ML, data modeling, and handling large datasets. Certified on Data science & Analytics from Upgrad. Former Team Leader @ Jhankaar - The Beat of LPU. Ex-Data Analyst Intern @ Hidelt.
+
+		   </p>
+          </div>
+        </div>
+
+		<div class="row">
+			<h1 class="big-4">Experience</h1>
+			<div class="underline"></div>
+		</div>
+		<br>
+		
+		<div class="row">
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2023-2024</span>
+						<h2>Research Head </h2>
+						<span class="position">Jhankaar- The Beat of LPU</span>
+						<p class="mt-4">Jhankaar - The Beat of LPU, Jhankaar - The Beat of LPU is a dynamic and vibrant event company known for its magnetic and captivating events. </p>
+							<ul>
+								<li>Managed the research team as head, collaborating with various organizations to plan and execute dynamic
+									student activities.</li>
+								<li>Conducted diligent research and insightful planning to create engaging activities, ensuring effective project
+									management.</li>
+								<li>Built knowledge of financial regulations and market practices/conventions in relevant markets.</li>
+							</ul>
+						</p>
+					</div>
+
+				</div>
+
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2023-2023</span>
+						<h2>Data Analyst Intern</h2>
+						<span class="position">Hidelt</span>
+						<p class="mt-4">Hidelt is a cutting-edge sports fashion brand that seamlessly blends high-performance athletic wear with contemporary fashion.
+							<ul>
+								<li>Executed quality assurance processes at various project stages to validate analysis and ensure data accuracy and quality</li>
+								<li>Collected and analyzed data from different teams to review past business performance, found patterns and trends, and offered insights to improve business planning and processes.
+
+
+
+
+
+								</li>
+								<li>Delivered high productivity and quality data, while maintaining the data flow and resolving data issues.</li>
+							</ul>
+						</p>
+					</div>
+
+				</div>
+			</div>
+
+		<br>
+		<br>
+
+		<div class="row">
+			<h1 class="big-4">Education</h1>
+			<div class="underline"></div>
+		</div>
+		<br>
+		
+			<div class="row">
+    			<div class="col-md-6">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">2020-2024</span>
+    					<h2>Bachelor of Engineering in Computer Science</h2>
+    					<span class="position">Lovely Professional University</span>
+    				</div>
+    			</div>
+
+    			<div class="col-md-6">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">2018-2020</span>
+    					<h2>Higher Secondary School</h2>
+    					<span class="position">St.Thomas School</span>
+    				</div>
+				</div>
+    		</div>
+
+    	
+
+   
+
+    <section class="ftco-section" id="project-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Projects</h1>
+            <h2 class="mb-4">Projects</h2>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a  class="block-20 zoom-effect" style="background-image: url('images/machine-learning.png');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a> Alzheimer's Disease Detection Using Machine Learning</a></h3>
+				
+                <p>Built a Machine Learning model to detect Alzheimer's in patients using RNN and CNN neural networks.</p>
+			  <a href="https://github.com/akarsh2002/AD-detection-using-ML"class="link-rocket-red">
+			  <i class="bx bxs-rocket"></i>
+			  &nbsp;&nbsp;Learn More
+			  </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://github.com/akarsh2002/Exploratory-Data-Analysis-Lead-Conversion" class="block-20 zoom-effect" style="background-image: url(images/data-analysis.png);">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a> Exploratory Data Analysis (EDA) on lead conversion.</a></h3>
+                <p>Refined X Education's conversion strategy using detailed data analysis and actionable insights.</p>
+				<a href="https://github.com/akarsh2002/AD-detection-using-ML"class="link-rocket-blue">
+					<i class="bx bxs-rocket"></i>
+					&nbsp;&nbsp;Learn More
+					</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry">
+              <a href="https://github.com/akarsh2002/cricket-scoreboard-using-tkinter-GUI-" class="block-20 zoom-effect" style="background-image: url(images/graphic.png);">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/akarsh2002/cricket-scoreboard-using-tkinter-GUI-">GUI Appplication Using Tkinter</a></h3>
+                <p>Designed an advanced Cricket Scoreboard Application using Tkinter for the GUI and SQL for backend data management.</p>
+				<a href="https://github.com/akarsh2002/cricket-scoreboard-using-tkinter-GUI-"class="link-rocket-yellow">
+					<i class="bx bxs-rocket"></i>
+					&nbsp;&nbsp;Learn More
+					</a>
+              </div>
+            </div>
+          </div>
+        </div>
+	<br>
+	
+		<!-- added justify-content-center to center align the last two projects -->
+		<div class="row d-flex justify-content-center">  
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a href="https://github.com/akarsh2002/Credit-Engagement-and-SoW" class="block-20 zoom-effect" style="background-image: url(images/sql-server.png);">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a href="https://github.com/akarsh2002/Credit-Engagement-and-SoW">Credit card engagement and SoW analysis</a></h3>
+				  <p>Analyzes credit card engagement, tracks Share of Wallet trends, identifies drivers of disengagement, and provides actionable insights for improvement.
+				  </p>
+				  <a href="https://github.com/akarsh2002/Credit-Engagement-and-SoW"class="link-rocket-green">
+					<i class="bx bxs-rocket"></i>
+					&nbsp;&nbsp;Learn More
+					</a>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a href="https://github.com/akarsh2002/Tableau-Sales-Analysis" class="block-20 zoom-effect" style="background-image: url(images/dashboard.png);">
+				</a>
+				<div class="text mt-3 float-right d-block">
+				  <h3 class="heading"><a href="https://github.com/akarsh2002/Tableau-Sales-Analysis">Tableau dashboard showcasing sales analysis</a></h3>
+				  <p>Developed Tableau dashboard showcasing end to end sales analysis</p>
+			      <a href="https://github.com/akarsh2002/Tableau-Sales-Analysis"class="link-rocket-orange">
+					<i class="bx bxs-rocket"></i>
+					&nbsp;&nbsp;Learn More
+					</a>
+				</div>
+			  </div>
+			</div>
+		 </div>
+	  </div>
+    </section>
+
+	<section
+	
+	  <div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/kelly-sikkema-tk9RQCq5eQo-unsplash.jpg)">
+			<!-- <div class="container"> -->
+				<div class="row justify-content-center">
+					<div class="col-md-7 ftco-animate text-center">
+						<h2> More About Me<span> </h2>
+						<div class="heading"> <h4> Dedicated to unraveling the mysteries within data, turning insights into action. </h4>
+						<br>
+						
+						</div>
+					</div>
+				</div>
+			<!-- </div> -->
+		</div>
+	</section>
+
+
+
+    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Contact</h1>
+            <h2 class="mb-4">Contact Me</h2>
+            <p>Below are the details to reach out to me!</p>
+          </div>
+        </div>
+
+        <div class="row d-flex contact-info mb-5">
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-map-signs"></span>
+          		</div>
+          		<h3 class="mb-4">Address</h3>
+	            <p>Greater Noida, India</p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-phone2"></span>
+          		</div>
+          		<h3 class="mb-4">Contact Number</h3>
+	            <p><a href="tel://0101010101">+91-9354281762</a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-paper-plane"></span>
+          		</div>
+          		<h3 class="mb-4">Email Address</h3>
+	            <p><a href="mailto:info@yoursite.com">akarshharsh12@gmail.com</a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-globe"></span>
+          		</div>
+          		<h3 class="mb-4">Resume</h3>
+	            <p><a href="https://akarshresume.tiiny.site">https://akarshresume.tiiny.site</a></p>
+	          </div>
+          </div>
+
+		  <div class="container">
+			<br>
+			<br>
+			<div class="row justify-content-center">
+			  <div class="col-md-7 ftco-animate text-center">
+			  </div>
+			</div>
+			<br>
+			<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
+			  <li class="ftco-animate normal-txt">Find me on</li>
+			  <li class="ftco-animate"><a href="https://www.linkedin.com/in/akarsh12/" class="linkedin-icon"><span class="icon-linkedin"></span></a></li>  
+			  <li class="ftco-animate"><a href="https://github.com/akarsh2002" class="github-icon"><span class="icon-github"></span></a></li>
+			</ul>
+			<br>
+		  </div>
+		  
+   </div>
+ </section>
+
+
+ 
+
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
